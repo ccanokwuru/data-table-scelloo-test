@@ -23,7 +23,7 @@ export default defineConfig({
       shortcuts: [
         {
           "container-c": "container ma",
-          link: "no-underline px-3 py-4 hover:opacity-90 font-500 text-sm text-[#6E6893]",
+          link: "no-underline px-3 py-4 transition-all duration-200 font-500 text-sm text-[#6E6893] active:!text-[#25213B] focus:!text-[#25213B] hover:!text-[#25213B] hover:opacity-80",
         },
       ],
       theme: {
